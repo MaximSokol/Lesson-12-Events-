@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lesson_12__WPF_Application__Calculator__.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_12__WPF_Application__Calculator__"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="369*"/>
+            <ColumnDefinition Width="425*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Name ="TextResul"  Height="23" Margin="322,82,0,0" TextWrapping="Wrap" Text="TextResult" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="345,130,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Button Content="Sub" HorizontalAlignment="Left" Margin="345,175,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Button Content="Div" HorizontalAlignment="Left" Margin="345,215,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" Grid.ColumnSpan="2"/>
+        <Button Content="Mult" HorizontalAlignment="Left" Margin="345,259,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
